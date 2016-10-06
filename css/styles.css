@@ -1,0 +1,190 @@
+/*Created by Erik Thornton 09/22/2016*/
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+#indexBody {
+    background: url(../css/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+#aboutBody {
+    background: url(../css/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: white;
+}
+
+#contactBody {
+    background: url(../css/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: white;
+}
+
+#logo {
+    height: 30px;
+    width: auto;
+    white-space: nowrap;
+}
+
+#collapseLogin {
+    margin-top: 10px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.form input {
+    width: 100%;
+    display: inline-block;
+}
+
+/*adjusted bootstrap default lineheight*/
+
+header .navbar .nav > li > a {
+    text-align: center;
+    line-height: 28px;
+}
+.navbar-collapse{
+    padding-right: 30px;
+
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+/*body centering*/
+
+#textContainer {
+    margin-top: 25%;
+}
+
+/*containers beneath background image*/
+
+/*about page*/
+
+#victory {
+    float: left;
+    height: 300px;
+    width: auto;
+    padding: 20px;
+}
+
+#victoryAwaits {
+    width: 400px;
+    padding: 20px;
+}
+#textRow {
+    width: 100%;
+}
+
+.center-block {
+    display: table;
+    margin: 80px auto;
+}
+#skiesAwait {
+    width: 400px;
+    padding: 20px;
+    color: white;
+}
+
+#skies {
+    float: left;
+    width: auto;
+    height: 300px;
+    padding: 20px;
+}
+
+#skiesDiv {
+    background-color: dimgray;
+    width: 100%;
+}
+
+/*contact page*/
+
+#contactForm {
+    float: left;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+#contactBlurb {
+    max-width: 400px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+/*footer section*/
+
+footer {
+    position: absolute;
+    background-color: gray;
+    height: auto;
+    font-size: 10px;
+    color: white;
+    width: 100%;
+}
+#footNav {
+    padding: 30px;
+}
+#whiteLogo {
+    height: 20px;
+
+}
+
+.lowerNav .navbar-default {
+    background-color: gray;
+    border: none;
+}
+
+nav.lowerNav > ul > li a {
+    color: white;
+}
+
+nav.lowerNav > ul > li a.navTop {
+    color: #1C38B8;
+    padding-left: 0;
+}
+
+nav.lowerNav > ul > li a.navMid {
+    padding: 0;
+}
+
+.lowerNav li > a:hover, .lowerNav > li > a:focus {
+    background-color: gray;
+}
+
+.lowerNav .active > a, .lowerNav .active > a:hover, .lowerNav .active > a:focus {
+    background-color: gray;
+}

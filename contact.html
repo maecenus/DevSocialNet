@@ -1,0 +1,177 @@
+<!-- Created By Erik Thornton 09/22/2016-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Bootstrap Framework-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--link to external style sheets-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Welcome to The Social</title>
+
+</head>
+<body class="aboutBody">
+
+<!--responsive nav bar with collapsing email login-->
+
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" id="collapsed" data-toggle="collapse" data-target="#collapseLogin" aria-expanded="false">
+                    <span class="sr-only">Toggle Login</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><img id="logo" src="css/logoblack.png"></div>
+            </div>
+            <div class="navbar-header navbar-left">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-header navbar-right">
+
+                <div class="collapse navbar-collapse" id="collapseLogin">
+                    <form class="form-inline">
+                        <label class="sr-only" for="inputEmail">Email Address</label>
+                        <input class="form-control" type="email" id="inputEmail" placeholder="Email Address">
+
+                        <label class="sr-only" for="inputPassword">Password</label>
+                        <input class="form-control" type="password" id="inputPassword" placeholder="Password">
+
+                        <button type="button" id="login">Login</button>
+                        <button type="button" id="register">Register</button>
+                    </form>
+                </div> <!-- collapseLogin -->
+            </div> <!-- collapsed button -->
+        </div> <!-- container -->
+    </nav>
+</header>
+
+<!--main responsive image with centered text-->
+
+<main class="page container-fluid text-center" id="contactBody">
+    <div class="row" id="textContainer">
+        <h1>WISDOM THOUGH ADVERSITY. UNITY THROUGH PURPOSE.</h1>
+    </div>
+</main>
+
+<!-- rows and columns section -->
+
+<div class="container">
+    <div class="row" id="textRow">
+        <div class="col-xs-12">
+            <div class="center-block">
+                <div class="container" id="contactForm">
+                    <form class="form">
+                        <label for="inputName">Name</label>
+                        <input class="form-control" type="name" id="inputName" placeholder="  Your name">
+                        <br>
+                        <br>
+                        <label for="inputEmailAddress">Email address</label>
+                        <input class="form-control" type="email" id="inputEmailAddress" placeholder="  Enter email">
+                        <h6>We'll never share your email with anyone else.</h6>
+                        <br>
+                        <label for="textBox">What would you like to share with us?</label>
+                        <textarea class="form-control" rows="5" id="textBox"></textarea>
+                        <br>
+                        <h4>File input</h4>
+                        <input type="file">
+                        <br>
+                        <div class="fileinput fileinput-new" data-provides="fileinput"></div>
+                        <h6>You can upload images or pdf files if necessary.</h6>
+                        <h3>Are you a current user?</h3>
+                        <hr>
+                        <div class="radio">
+                            <label><input type="radio" name="currentUser">Yes, I am.</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="currentUser">Not yet, but I will be soon, I promise.</label>
+                        </div>
+                        <br>
+                        <label class="checkbox-inline"><input type="checkbox" value="">I am not a robot.</label>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-primary" id="comment">Submit</button>
+
+                    </form>
+                </div>
+                <div class="text pull-left" id="contactBlurb">
+                    <h2>We really want to hear from you.</h2>
+                    <p>Your feedback is important to us. We are continuously improving our products, and your data helps us make those improvements.</p>
+                    <h6>Please be patient with us we are currently revamping our system.  If you do not receive a response within 48 hours, it means we are too busy to reply to your complaints.</h6>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--footer navigation-->
+
+<footer>
+    <div class="content container-fluid">
+        <div class="row" id="footNav">
+            <div class="navbar-brand col-xs-12 col-sm-3">
+                <img id="whiteLogo" src="css/logowhite.png">
+            </div>
+            <div class="container">
+                <div class="col-xs-12 col-sm-3">
+                    <nav class="lowerNav navbar navbar-right">
+                        <ul class="nav navbar-default">
+                            <li><a class="navTop" href="#">OUR APP</a></li>
+                            <li><a class="navMid" href="#">News Feed</a></li>
+                            <li><a class="navMid" href="#">Messenger</a></li>
+                            <li><a class="navMid" href="#">Profile</a></li>
+                            <li><a class="navMid" href="#">Photos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <nav class="lowerNav navbar navbar-right">
+                        <ul class="nav navbar-default">
+                            <li><a class="navTop" href="#">HOW TO</a></li>
+                            <li><a class="navMid" href="#">Help Center</a></li>
+                            <li><a class="navMid" href="#">Privacy Basics</a></li>
+                            <li><a class="navMid" href="#">Create a Page</a></li>
+                            <li><a class="navMid" href="#">Create an Ad</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <nav class="lowerNav navbar navbar-right">
+                        <ul class="nav navbar-default">
+                            <li><a class="navTop" href="#">MENU</a></li>
+                            <li><a class="navMid" href="#">Home</a></li>
+                            <li><a class="navMid" href="#">About</a></li>
+                            <li><a class="navMid" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div> <!-- footer content container -->
+</footer>
+
+<!--bootstrap scripts-->
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+<!-- <script src="script.js" type="text/javascript"></script> -->
+</body>
+</html>
