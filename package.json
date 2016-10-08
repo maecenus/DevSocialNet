@@ -1,0 +1,25 @@
+{
+  "name": "devsocialnet",
+  "version": "1.0.0",
+  "description": "a mock-up of a social network for aspiring web developers",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maecenus/DevSocialNet.git"
+  },
+  "keywords": [
+    "social",
+    "bootstrap",
+    "network",
+    "website"
+  ],
+  "author": "Erik Thornton <erikthornton26@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maecenus/DevSocialNet/issues"
+  },
+  "homepage": "https://github.com/maecenus/DevSocialNet#readme"
+}
